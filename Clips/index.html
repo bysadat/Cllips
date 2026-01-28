@@ -1,14 +1,67 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Simple Tailwind Starter</title>
+    <title>Clips</title>
   </head>
-  <body>
-    <h1 class="text-4xl mb-4">Welcome</h1>
-    <p>Start building your Tailwind project</p>
+  <body class="bg-navy-100">
+    <!-- Hero Section -->
+    <section id="Hero">
+      <div class="section-container mb-30 px-10 pt-18">
+        <img
+          src="/images/logo.svg"
+          alt="logo"
+          class="mx-auto my-16 hover:-translate-y-2 transition"
+        />
+
+        <h3>A comprehensive list of every item you’ve copied.</h3>
+
+        <p class="max-w-3xl mx-auto mb-10 text-2xl text-softSlate">
+          Streamline your workflow with Clips by tracking and organizing every
+          copied item. Experience seamless clipboard synchronization across all
+          your devices.
+        </p>
+        <!-- Button Container -->
+        <div class="button-container">
+          <a
+            href="#"
+            class="p-4 px-8 rounded-3xl shadow-xl bg-PrimaryGold duration-300 hover:opacity-70 hover:-translate-y-1.5 transition"
+          >
+            IOS Download</a
+          >
+          <a
+            href="#"
+            class="p-4 px-8 rounded-3xl shadow-xl bg-DeepIndigo duration-300 hover:opacity-70 hover:-translate-y-1.5 transition"
+          >
+            Windows Download</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- Snipet Section -->
+    <section class="section" id="snippet">
+      <div class="section-container my-20 px-10">
+        <h3>Maintain an archive of your snippets.</h3>
+        <p
+          class="max-w-3xl mx-auto mb-20 text-xl leading-9 text-center text-SoftSlate"
+        >
+          Master your workflow with a clipboard that never forgets. Clips
+          transforms the way you handle data by tracking every item you copy and
+          turning it into an organized, accessible library. No more jumping
+          between tabs to find that one specific line of code or hex value. With
+          instant cross-device synchronization and a smart history log, your
+          clipboard becomes a seamless extension of your creative process.
+        </p>
+      </div>
+    </section>
   </body>
 </html>
