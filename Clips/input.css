@@ -8,6 +8,10 @@
   }
 }
 
+.section-content {
+  @apply max-w-3xl mx-auto leading-9 text-center text-SoftSlate;
+}
+
 .section-container {
   @apply max-w-6xl mx-auto text-center px-10;
 }
